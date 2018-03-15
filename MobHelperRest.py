@@ -42,10 +42,10 @@ app.config['JWT_SECRET_KEY'] = 'my super secret key for encripting token'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
 app.config['SQLALCHEMY_DATABASE_URI'] = URL('mssql+pymssql',
-                 username='u0361128_user',
-                 password="""Qwerty123""",
-                 host='mssql.u0361128.plsk.regruhosting.ru',
-                 database='u0361128_proj_advice')
+                 username='_user',
+                 password="""123""",
+                 host='mssql.testhost.com',
+                 database='_advice')
 
 # extensions
 db = SQLAlchemy(app)
